@@ -1,0 +1,56 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:fantasy;
+   
+    
+    
+
+}
+.nav-item{
+    color: black;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    background-color:darkslategray;
+    border-radius:10px ;
+    transition: 0.5s;
+    color: white;     
+}
+
+
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left:10px;
+    color:black;
+    font-family: 'Rubik',sans-serif;
+    text-transform: uppercase;
+
+}
+
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    transition: 1s;
+    padding: 15px;
+    width: 300px;
+    height:200px;
+
+}
+.gallery img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.gallery{
+    padding-top: 100px;
+    padding-left: 120px;
+}

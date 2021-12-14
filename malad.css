@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family:fantasy;
+   
+    
+    
+
+}
+.nav-item{
+    color: black;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    background-color:darkslategray;
+    border-radius:10px ;
+    transition: 0.5s;
+    color: white;     
+}
+
+
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left:10px;
+    color:black;
+    font-family: 'Rubik',sans-serif;
+    text-transform: uppercase;
+
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+    text-shadow: grey;
+}
+
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:1.5rem;
+
+}
+.menu .box-container .box{
+    background: #fff;
+    border: .1rem solid rgba(0,0,0,.2);
+    border-radius:.5rem;
+    box-shadow: var(--box-shadow);
+    
+}
+.menu .box-container .box .image{
+    height:25rem;
+    width:100%;
+    padding:1.5rem;
+    overflow: hidden;
+    position: relative;
+
+}
+.menu .box-container .box .image img{
+    height:100%;
+    width:100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    
+
+}
+.menu .box-container .box:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+
+transition:0.3s;
+}
+
+
+
+
+
+.menu .box-container .box .content{
+    padding:2rem;
+    padding-top: 0;
+
+}
+
+.menu .box-container .box .content .stars span{
+    font-size: 20px;
+    
+}
+
+.menu .box-container .box .content h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+.menu .box-container .box .content p{
+    font-size: 1.2rem;
+    color:var(--light-color);
+    padding:.5rem 0;
+    
+}
+.heading{
+    padding-top:2%;
+}
+
+.stars{
+    padding-top: 30px;
+    
+}
+
+.checked{
+    color:orangered;
+}
+
+
+
+.heading{
+    padding-top:2%;
+}
+.menu .box-container .box .content .stars .rating{
+    font-size: 25px;
+    color: black;
+}
+#menu{
+   padding-top: 400px;
+  
+}
+#carouselExampleCaptions{
+    position:absolute;
+}
+
+
+
+

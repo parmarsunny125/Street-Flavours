@@ -1,0 +1,146 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+    
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    font-family:fantasy;
+}
+.nav-item{
+    color: white;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    background-color:darkslategray;
+    border-radius:10px ;
+    transition: 0.5s;
+    color: white;     
+}
+
+
+.navbar-brand:hover{
+    color:white;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left:10px;
+    color:white;
+    font-family: 'Rubik',sans-serif;
+    text-transform: uppercase;
+    
+
+}
+.container1 img{
+height: 550px;
+width: 550px;
+float: right;
+}
+
+.street{
+    font-size: 100px;
+    float: left;
+    margin-top: 205px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: text 2s;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 5%;
+    display: flex;
+    text-align: center;
+}
+@keyframes text{
+    0%{
+        background-color:white;
+        margin-top: 100px;
+    }
+        100%{
+        margin-top: 205px;
+    }
+}
+
+ .motive{
+    float: left;
+    padding-top: 5%;
+    height: 90%;
+    width:  90%;
+    margin-left: 10%;
+   
+}
+.container2 h1{
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Gwendolyn', cursive;
+    font-size: 100px;
+}
+.container2 p{
+font-family: 'Courier New', Courier, monospace;
+padding-left: 5%;
+overflow: hidden;
+font-size: 17px;
+font-weight: 700;
+display: flex;
+text-align: center;
+}
+.aboutus{
+    text-align: center;
+    font-family: 'Gwendolyn', cursive;
+    font-weight: 300;
+    font-size: 90px;
+}
+.container3{
+    padding-top: 10px;
+}
+.container3 img{
+    display: flex;
+   justify-content: center;
+    height: 250px;
+    width: 250px;
+   margin: auto;
+    margin-top: 30px;
+}
+.container3 h3{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.container3 h4{
+    text-align: center;
+
+}
+
+@media(max-width:576px){
+    .street{
+        margin-top: 30px;
+        padding-left: 20%;
+        font-size:50px ;
+        text-align: center;
+    }
+    .streetimg{
+        padding-left: 15%;
+    }
+    .motive{
+        margin-left: 25px;
+    }
+    .container3 img{
+        display: flex;
+        height: 200px;
+        width: 200px;
+        margin-left: 30%;
+    }
+    @keyframes text{
+        0%{
+            background-color:white;
+            margin-top: 10px;
+        }
+            100%{
+            margin-top: 30px;
+        }
+    }
+}
